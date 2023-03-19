@@ -3,8 +3,8 @@
     margin-left: 16px;
     margin-right: 16px;
     display: grid;
-    grid-template-columns: 288px ;
-    grid-template-rows: repeat(12, 216px) ;
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(12, 216px);
     row-gap: 12px;
     margin-bottom: 14px;
     padding-bottom: 0;
