@@ -1,42 +1,29 @@
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter\ Web/Inter-Bold) format(woff2),
-    url(./fonts/Inter\ Web/Inter-Bold) format(woff);
-    font-weight: bold;
+    src: url(./fonts/Inter-Bold.woff2) format(woff2),
+    url(./fonts/Inter-Bold.woff) format(woff);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter\ Web/Inter) format(woff2),
-    url(./fonts/Inter\ Web/Inter) format(woff);
-    font-weight: normal;
+    src: url(./fonts/Inter-Black.woff2) format(woff2),
+    url(./fonts/Inter-Black.woff) format(woff);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter\ Web/Inter-Light) format(woff2),
-    url(./fonts/Inter\ Web/Inter-Light) format(woff);
-    font-weight: light;
+    src: url(./fonts/Inter-Light.woff2) format(woff2),
+    url(./fonts/Inter-Light.woff) format(woff);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter\ Web/Inter-Medium) format(woff2),
-    url(./fonts/Inter\ Web/Inter-Medium) format(woff);
-    font-weight: light;
+    src: url(./fonts/Inter-Medium.woff2) format(woff2),
+    url(./fonts/Inter-Medium.woff) format(woff);
 }
 
-
-@font-face {
-    font-family: "Inter";
-    src: url(./fonts/Inter\ Web/Inter-Medium) format(woff2),
-    url(./fonts/Inter\ Web/Inter-Medium) format(woff);
-    font-weight: light;
-}
 
 .page {
-    margin-top: 0;
-    padding: 0;
     background-color:#2a2c2f;
     max-width: 1280px;
     min-width: 320px;
@@ -47,8 +34,6 @@
 }
 
 .header {
-    /* box-sizing: content-box; */
-    /* border: red 1px solid; */
     display: flex;
 }
 
@@ -86,7 +71,6 @@
 
 
 .lead__title {
-    /* outline: solid 0.1px red; */
     color: #ffff;
     margin-top: 48px;
     max-width: 90vw;
@@ -97,13 +81,12 @@
     text-align: center;
     font-weight: 900;
     font-size: 12vw;
-    line-height: 12hw;
+    line-height: 110%;
     margin-bottom: 0;
     box-sizing: border-box;
 }
 
 .lead__subtitle {
-    /* outline: solid 0.1px red; */
     color: #ffff;
     margin-top: 12px;
     text-align: center;
@@ -119,7 +102,6 @@
 }
 
 .lead__image {
-    background-image: 100%;
     margin-top: 37px;
     width: 100%;
     height: 100%;
@@ -128,7 +110,6 @@
 }
 
 .lead__caption {
-    /* border: red 0.1px solid; */
     margin-top: 3px;
     color: #ffff;
     min-width: 160px;
@@ -139,7 +120,6 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     margin-bottom: 0;
-    object-fit: fil;
     padding-top: 0;
 
 }
@@ -206,21 +186,16 @@
 }
 
 .places {
-    /* outline: 0.1px solid red; */
-    /* margin-top: 64px; */
     display: grid;
     row-gap: 50px;
     margin-top: 64px;
 
 }
 
-.place {
-    /* outline: 0.1px solid red; */
-}
+
 
 .place__title {
     margin-top: 50px;
-    /* outline: 0.1px solid red; */
     min-width: 288px;
     min-height: 35px;
     margin-left: 16px;
@@ -234,15 +209,12 @@
 }
 
 .place__website {
-    /* outline: 0.1px solid red; */
-    /* display: flex; */
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 32px;
 }
 
 .place__url-heading {
-    /* outline: 0.1px solid red; */
     min-width: 288px;
     min-height: 12px;
     color: #AAAAAA;
@@ -254,7 +226,6 @@
 }
 
 .place__link {
-    /* outline: 0.1px solid red; */
     margin-top: 0;
     margin-bottom: 0;
     color: #ffff;
@@ -265,8 +236,11 @@
     line-height: 22px;
 }
 
+.place__link:hover {
+    opacity: 0.8;
+}
+
 .places__image {
-    /* outline: 0.1px solid red; */
     margin-top: 32px;
     object-fit: cover;
     width: 100%;
@@ -274,14 +248,12 @@
 }
 
 .place__paragraphs {
-    /* outline: solid 1px red; */
     display: grid;
     row-gap: 25px;
     margin-top: 32px;
 }
 
 .place__paragraph {
-    /* outline: solid 1px red; */
     color: #ffff;
     margin-left: 16px;
     margin-right: 16px;
@@ -293,7 +265,6 @@
 }
 
 .cover {
-    /* outline: solid 1px red;  */
     margin-top: 66px;
 }
 
@@ -337,7 +308,6 @@
 
 
 .cover__title {
-    /* outline: solid 1px red;  */
     margin-top: 33px;
     font-size: 10vw;
     text-align: center;
@@ -349,7 +319,6 @@
 
 
 .cover__subtitle {
-    /* outline: solid 1px red;  */
     text-align: center;
     font-size: 4.375vw;
     line-height: 114%;
@@ -361,7 +330,6 @@
 
 .footer {
     margin-top: 64px;
-    /* margin-bottom: 24px; */
 }
 
 .links {
@@ -378,6 +346,10 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
+}
+
+.link:hover {
+    opacity: 0.8;
 }
 
 .footer__copyright {
@@ -413,8 +385,6 @@
     
     .cover__background {
         padding: 0;
-        /* max-height: 480px;
-        max-width: 768px; */
     }
     
     .cover__title {
@@ -436,6 +406,7 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
+
     .header__logo {
         min-width: 155px;
         min-height: 47px;
@@ -453,15 +424,11 @@
         line-height: 28px;
     }  
 
-    .header__lang-link:nth-last-child(1) {
-        margin-right: 20px;
-    }
-
     .lead__title {
         max-width: 90vw;
         max-height: 200px;
-        font-size: calc(40px + 56) * 0.7 * (100vw - 320);
-        line-height: calc(40px + 56) * 0.7 * (100vw - 320);
+        font-size: 12.5vw;
+        line-height: 104%;
     }
 
     .lead__subtitle {
@@ -469,12 +436,13 @@
         max-width: 90vw;
         min-height: 40px;
         font-size: 36px;
-        font-size: calc(10px + 20 * ((100vw - 320)/ 1280));
-        line-height: calc(16px + 20 * ((100vw - 320) / 1280));
+        font-size: 3.9vw;
+        line-height: 120%;
     }
 
     .lead__caption {
         margin-left: 3.125vw;
+        margin-top: 8px;
     }
 
     .intro__title {
@@ -559,8 +527,8 @@
     .lead__title {
         max-width: 90vw;
         max-height: 200px;
-        font-size: calc(40px + 56) * 0.7 * (100vw - 320);
-        line-height: calc(40px + 56) * 0.7 * (100vw - 320);
+        font-size: 96px;
+        line-height: 104%;
     }
 
     .lead__subtitle {
@@ -568,12 +536,13 @@
         max-width: 90vw;
         min-height: 40px;
         font-size: 36px;
-        font-size: calc(10px + 20 * ((100vw - 320)/ 1280));
-        line-height: calc(16px + 20 * ((100vw - 320) / 1280));
+        font-size: 30px;
+        line-height: 120%;
     }
 
     .lead__caption {
         margin-left: 3.125vw;
+        margin-top: 8px;
     }
 
     .intro__title {
@@ -630,14 +599,13 @@
         max-height: 46px;
     }
 
-    .place__title_first {
+    .place__title_kosa {
         min-height: 92px;
     }
 
     
 
     .place__website {
-        /* display: flex; */
         margin-left: 0;
         margin-top: 0;
         max-height: 46px;
@@ -647,12 +615,7 @@
         margin-top: 0;
     }
 
-
-    .place__link {
-        /* margin-left: 0; */
-    }
-
-    .place__website_first {
+    .place__website_kosa {
         margin-top: 46px;
     }
 
@@ -701,12 +664,10 @@
 
     .footer {
         display: flex;
-        outline: 1px red solid;
         margin-top: 88px;
     }
     
     .links {
-        outline: 1px red solid;
         display: flex;
         flex-direction: row;
         column-gap: 18px;
@@ -714,7 +675,6 @@
     }
     
     .link {
-        outline: 1px red solid;
         color: #ffff;
         text-decoration: none;
         font-size: 16px;
@@ -722,7 +682,6 @@
     }
     
     .footer__copyright {
-        outline: 1px red solid;
         padding-bottom: 0;
         margin-right: 24px;
         margin-bottom: 24px;
@@ -787,6 +746,7 @@
 
     .lead__caption {
         margin-left: 4.6875vw;
+        margin-top: 8px;
     }
 
     .intro__title {
@@ -845,18 +805,17 @@
         max-height: 76px;
     }
 
-    .place__title_first {
+    .place__title_kosa {
         min-height: 152px;
     }
 
-    .place__title_fourth {
+    .place__title_baikal {
         min-height: 152px;
     }
 
     
 
     .place__website {
-        /* display: flex; */
         margin-left: 0;
         margin-top: 30px;
         max-height: 46px;
@@ -867,15 +826,11 @@
     }
 
 
-    .place__link {
-        /* margin-left: 0; */
-    }
-
-    .place__website_first {
+    .place__website_kosa {
         margin-top: 106px;
     }
 
-    .place__website_fourth {
+    .place__website_baikal {
         margin-top: 106px;
     }
 
@@ -926,12 +881,10 @@
 
     .footer {
         display: flex;
-        outline: 1px red solid;
         margin-top: 92px;
     }
     
     .links {
-        outline: 1px red solid;
         display: flex;
         flex-direction: row;
         column-gap: 18px;
@@ -939,13 +892,11 @@
     }
     
     .link {
-        /* outline: 1px red solid; */
         font-size: 16px;
         line-height: 112%;
     }
     
     .footer__copyright {
-        outline: 1px red solid;
         padding-bottom: 0;
         margin-right: 48px;
         margin-bottom: 24px;
@@ -1006,6 +957,7 @@
 
     .lead__caption {
         margin-left: 11.5625vw;
+        margin-top: 8px;
     }
 
     .intro__title {
@@ -1060,11 +1012,11 @@
         max-height: 76px;
     }
 
-    .place__title_first {
+    .place__title_kosa {
         min-height: 152px;
     }
 
-    .place__title_fourth {
+    .place__title_baikal {
         min-height: 152px;
     }
 
@@ -1078,11 +1030,11 @@
         margin-top: 0;
     }
 
-    .place__website_first {
+    .place__website_kosa {
         margin-top: 106px;
     }
 
-    .place__website_fourth {
+    .place__website_baikal {
         margin-top: 106px;
     }
 
@@ -1102,7 +1054,7 @@
         line-height: 163%;
     }
 
-    .place__paragraph_second {
+    .place__paragraph_more {
         margin-top: 26px;
     }
 
@@ -1120,7 +1072,7 @@
     .cover__title {
         margin-top: 245px;
         font-size: 72px;
-        max-width: 55vw;
+        max-width: 560px;
         line-height: 106%;
     }
     
@@ -1135,12 +1087,11 @@
 
     .footer {
         display: flex;
-        outline: 1px red solid;
         margin-top: 92px;
     }
     
     .links {
-        outline: 1px red solid;
+
         display: flex;
         flex-direction: row;
         column-gap: 18px;
@@ -1148,13 +1099,11 @@
     }
     
     .link {
-        /* outline: 1px red solid; */
         font-size: 16px;
         line-height: 112%;
     }
     
     .footer__copyright {
-        outline: 1px red solid;
         padding-bottom: 0;
         margin-right: 48px;
         margin-bottom: 24px;
@@ -1216,8 +1165,8 @@
     }
 
     .lead__caption {
-        margin-left: 11.5625vw;
-
+        margin-left: 148px;
+        margin-top: 8px;
     }
 
     .intro__title {
@@ -1289,11 +1238,11 @@
         margin-top: 0;
     }
 
-    .place__website_first {
+    .place__website_kosa {
         margin-top: 106px;
     }
 
-    .place__website_fourth {
+    .place__website_baikal {
         margin-top: 106px;
     }
 
@@ -1304,8 +1253,6 @@
 
     .place__paragraphs {
         margin-top: 48px;
-        /* display: grid; */
-        /* row-gap: 27px; */
     }
     
     .place__paragraph {
@@ -1315,7 +1262,7 @@
         margin-right: 0;
     }
 
-    .place__paragraph_second {
+    .place__paragraph_more {
         margin-top: 26px;
     }
 
@@ -1333,7 +1280,7 @@
     .cover__title {
         margin-top: 245px;
         font-size: 72px;
-        max-width: 55vw;
+        max-width: 560px;
         line-height: 106%;
     }
     
@@ -1348,12 +1295,10 @@
 
     .footer {
         display: flex;
-        outline: 1px red solid;
         margin-top: 92px;
     }
     
     .links {
-        outline: 1px red solid;
         display: flex;
         flex-direction: row;
         column-gap: 18px;
@@ -1361,13 +1306,11 @@
     }
     
     .link {
-        /* outline: 1px red solid; */
         font-size: 16px;
         line-height: 112%;
     }
     
     .footer__copyright {
-
         padding-bottom: 0;
         margin-right: 48px;
         margin-bottom: 24px;
