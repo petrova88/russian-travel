@@ -1,0 +1,41 @@
+.link {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+    .link {
+        color: #ffff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 112%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .link {
+        font-size: 16px;
+        line-height: 112%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px)  {  
+    .link {
+        font-size: 16px;
+        line-height: 112%;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 30000px)  {  
+    .link {
+        font-size: 16px;
+        line-height: 112%;
+    }
+}
