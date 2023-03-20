@@ -4,32 +4,12 @@
     margin-top: 32px;
 }
 
-@media screen and (min-width: 767px) and (max-width: 768px) {
-    .place__paragraphs {
-        margin-top: 48px;
-        display: grid;
-        row-gap: 25px;
-        margin-right: 0;  
-    }
-}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 30000px) {
     .place__paragraphs {
-        margin-top: 48px;
-        display: grid;
-        row-gap: 27px;
-        margin-right: 0;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px)  {
-    .place__paragraphs {
-        margin-top: 48px;
-    }
-}
-
-@media screen and (min-width: 1281px) and (max-width: 30000px)  {
-    .place__paragraphs {
+        display: flex;
+        position: relative;
+        flex-direction: column;
         margin-top: 48px;
     }
 }

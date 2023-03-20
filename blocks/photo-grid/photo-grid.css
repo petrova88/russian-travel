@@ -17,18 +17,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px) {
-    .photo-grid {
-        margin-top: 88px;
-        margin-left: 3.125vw;
-        margin-right: 3.125vw;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        gap: 16px;
-    }
-}
-
-@media screen and (min-width: 767px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .photo-grid {
         margin-top: 88px;
         margin-left: 3.125vw;

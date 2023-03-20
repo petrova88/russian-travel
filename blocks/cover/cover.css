@@ -14,15 +14,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px)  {
-    .cover {
-        margin-top: 92px;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width: 1281px) and (max-width: 30000px)  {
+@media screen and (min-width: 1025px) and (max-width: 3000px)  {
     .cover {
         margin-top: 92px;
         display: flex;

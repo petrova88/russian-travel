@@ -3,7 +3,6 @@
     margin-bottom: 0;
     color: #ffff;
     min-width: 288px;
-    min-height: 22px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -11,4 +10,5 @@
 
 .place__link:hover {
     opacity: 0.8;
+    transition: 0.3s;
 }
