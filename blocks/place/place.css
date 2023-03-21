@@ -2,7 +2,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
         display: grid;
-        grid-template-columns: 47.27% 48.88%;;
+        grid-template-columns: 47.27% 48.88%;
         column-gap: 3.64583vw;
     }
 }
