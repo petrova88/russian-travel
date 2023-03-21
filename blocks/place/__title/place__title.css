@@ -1,9 +1,8 @@
 .place__title {
     min-width: 288px;
-    min-height: 35px;
     margin-left: 16px;
     margin-right: 16px;
-    color: #ffff;
+    color: #fff;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
@@ -11,7 +10,8 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 767px) and (max-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__title {
         margin-top: 0;
         margin-left: 0;
@@ -19,34 +19,22 @@
         max-width: 44.2708vw;
         font-weight: 900;
         font-size: 5.46875vw;
-        line-height: 110%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .place__title {
-        margin-top: 0;
-        margin-left: 0;
-        min-width: 42.968vw;
-        max-width: 44.2708vw;
-        font-weight: 900;
-        font-size: 7.03vw;
         line-height: 106%;
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px)  {
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
     .place__title {
         margin-top: 0;
         margin-left: 0;
         max-width: 35.9375vw;
         font-weight: 900;
-        font-size: 5.625vw;
+        font-size: 7.03125vw;
         line-height: 106%;
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 30000px)  {
+@media screen and (min-width: 1280px) and (max-width: 30000px)  {
     .place__title {
         margin-top: 0;
         margin-left: 0;

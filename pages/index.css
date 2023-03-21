@@ -1,4 +1,4 @@
-@import url(../style.css);
+@import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/body/body.css);
 
@@ -7,7 +7,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
-@import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

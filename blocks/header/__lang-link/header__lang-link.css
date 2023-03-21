@@ -17,18 +17,10 @@
 }
 
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 3000px) {
 
     .header__lang-link {
         font-size: 24px;
         line-height: 117%;
     } 
-}
-
-@media screen and (min-width: 769px) and (max-width: 3000px) {
-
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 117%;
-    }   
 }

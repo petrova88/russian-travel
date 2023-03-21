@@ -5,6 +5,6 @@
 В этой работе отработано практические навыки адаптивной верстки.
 
 
-Ссылка на GitHub Pages [https://petrova88.github.io/russian-travel-1/]
+Ссылка на GitHub Pages [https://petrova88.github.io/russian-travel/]
 
 
